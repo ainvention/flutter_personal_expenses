@@ -24,7 +24,7 @@ Flutter project for calculating personal expenses
 
 ## How to use this app
 
-- connect a device or start AVD manager > run a emulator in the Android Studio.
+- connect a device or start AVD manager in the Android Studio > run a emulator .
 - install dependencies ``` pub get ```
 
 - then,  ``` flutter run ```
