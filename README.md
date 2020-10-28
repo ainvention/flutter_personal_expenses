@@ -1,16 +1,30 @@
-# try_flutter
+# personal_expenses_app
 
-A new Flutter project.
+Flutter project for calculating personal expenses
 
-## Getting Started
+## app structur
 
-This project is a starting point for a Flutter application.
+```
+  - ./lib
+  -- ./lib/ models
+    |
+    -- transaction.dart // transaction model define
+  -- ./lib/widgets
+    |
+    -- chart_bar.dart // for bar_chart drawing
+    |
+    -- chart.dart // for chart implementing
+    |
+    -- new_transaction.dart // user's new transaction logic implementing
+    |
+    -- transaction_list.dart // drawing each transactions on lists
+  -- main.dart // main implementing file
+  ```
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## How to use this app
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- connect a device or start AVD manager > run a emulator in the Android Studio.
+- install dependencies ``` pub get ```
+
+- then,  ``` flutter run ```
