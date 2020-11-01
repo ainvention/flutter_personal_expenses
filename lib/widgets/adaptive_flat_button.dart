@@ -13,7 +13,6 @@ class AdaptiveFlatButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Platform.isIOS
         ? CupertinoButton(
-            text,
             // color: Colors.blue,
             onPressed: handler,
             child: Text(
